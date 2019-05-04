@@ -177,6 +177,14 @@ ul li a:hover {
     width: 100vw !important;
     height: 80vh !important;
   }
+
+  .row .appointmentServices {
+    text-align: center
+  }
+
+  #appointmentCall {
+    margin-top: 20px;
+  }
 }
 
 .hero a {
@@ -327,6 +335,15 @@ hr {
 
 /* Contact Section */
 
-#contactSection {
+#contactSection,
+#appointmentSection {
   background-color: #e74c3c;
+}
+
+.appointmentServices {
+  width: 100%;
+}
+
+#appointmentCall {
+  font-size: 1.5rem;
 }
